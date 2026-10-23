@@ -27,7 +27,7 @@ The full 21-row table is in `evidence/01-caps.txt`. The live open interest of **
 The same table is served in `/llms-full.txt` (line ~6099), so AI agents building on the docs inherit the stale numbers too.
 
 ## Evidence
-- `evidence/01-caps.txt` (script `scripts/01-oi-and-position-caps.ts`)
+- `evidence/01-caps.txt` (script `scripts/01-oi-and-position-caps.mjs`, run via `npm run caps`)
 - BTC-PERP: `getPerpPoolParameters().maxOpenInterest` = 49363090000 (8 decimals).
 
 ## Environment

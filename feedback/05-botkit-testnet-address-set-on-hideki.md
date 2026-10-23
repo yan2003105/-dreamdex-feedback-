@@ -12,7 +12,7 @@ Area: SDK
 The bot kit's address set resolves to deployed contracts on Hideki, as the comment says.
 
 ## Actual
-- 7 entries differ, and **none of the bot kit's values has code on Hideki**: `marginBank` 0xdd4A…5C4E, `perpPoolFactory` 0x516d…a07b, `priceFeedScheduler`, `marketCreator`, `collateral`/`testUsdc` 0x70a8…5d8E, and `collateralRouter`.
+- 7 entries differ, and **none of the bot kit's values has code on Hideki**: `marginBank` 0xdd4A…5C4E, `perpPoolFactory` 0x516d…a07b, `priceFeedScheduler`, `marketCreator`, `collateral`/`testUsdc` 0x70a8…5d8E, and `collateralRouter`. (Seven entries differ, but they are six unique addresses: `collateral` and `testUsdc` are the same address.)
 - On SDK 0.32.1, a configured `addresses.perpPoolFactory` takes precedence for perp discovery. With the bot kit's set, `loadMarkets()` reports `perpDiscoveryError: rpc readContract getPerpPools failed: ... returned no data ("0x")`. The Hideki set gives `null`. Perps still list only because the indexer is up, so the chain-only fallback the SDK documents is lost.
 - `getPerpVoucherCampaign(addresses.marginBank)` → `RpcError ... getCreditGranter returned no data` with the bot kit's set. With the Hideki set it works.
 

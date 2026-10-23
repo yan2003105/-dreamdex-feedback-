@@ -1,0 +1,1 @@
+{"dependencies":{"@somnia-chain/markets-sdk":"^0.32.1","viem":"^2.57.0"},"name":"dreamdex-feedback","private":true,"scripts":{"caps":"node scripts/01-oi-and-position-caps.mjs"},"type":"module"}

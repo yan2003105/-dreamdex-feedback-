@@ -1,0 +1,29 @@
+Somnia Hideki testnet (chainId 50383), RPC https://api.hideki2.infra.testnet.somnia.network
+Block: 30985202
+Date checked: 2026-10-23
+
+Market | Docs cap | On-chain maxOpenInterest | Ratio
+---|---|---|---
+BTC | 246.81545 | 493.6309 | 2x
+ETH | 3995.6125 | 7991.225 | 2x
+HYPE | 23812.72 | 47625.44 | 2x
+SOL | 47654.44 | 95308.88 | 2x
+XRP | 344632 | 1378528 | 4x
+ADA | 2254678 | 9018712 | 4x
+AVAX | 66672.2 | 266688.8 | 4x
+BNB | 693.975 | 2775.9 | 4x
+DOGE | 5613590 | 22454360 | 4x
+LINK | 42643.6 | 170574.4 | 4x
+NEAR | 250410 | 1001640 | 4x
+SUI | 635009 | 2540036 | 4x
+XLM | 2677780 | 10711120 | 4x
+1000PEPE | 130285600 | 521142400 | 4x
+LIT | 138896.6 | 555586.4 | 4x
+PUMP | 87993700 | 351974800 | 4x
+TAO | 2185.491 | 2185.491 | 1x
+VVV | 21786.14 | 87144.56 | 4x
+WLD | 1264000 | 5056000 | 4x
+ZEC | 420 | 1680 | 4x
+ZRO | 250599.5 | 1002398 | 4x
+
+20 of 21 documented caps differ from on-chain maxOpenInterest.
