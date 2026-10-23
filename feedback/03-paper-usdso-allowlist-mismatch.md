@@ -1,4 +1,4 @@
-```markdown title="feedback/03-paper-usdso-allowlist-mismatch.md"
+
 # Paper USDso: the six markets the docs mark "No" are allowed on-chain
 Severity: major
 Area: contracts
