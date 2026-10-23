@@ -1,4 +1,4 @@
-```markdown title="feedback/05-botkit-testnet-address-set-on-hideki.md"
+
 # Bot kit passes SOMNIA_TESTNET_ADDRESSES on Hideki; six of those addresses have no code there
 Severity: major
 Area: SDK
@@ -23,4 +23,4 @@ The kit works today only because it reads `marginBank` and pools off market rows
 - Network: Somnia Hideki testnet (chain id 50383), RPC `https://api.hideki2.infra.testnet.somnia.network`
 - Wallet address: none. Read-only checks; no transaction sent.
 - Date checked: 2026-10-23
-```
+
