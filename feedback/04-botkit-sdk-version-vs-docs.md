@@ -1,4 +1,4 @@
-```markdown title="feedback/04-botkit-sdk-version-vs-docs.md"
+
 # Bot kit locks markets-sdk 0.31.0, so the docs' Connect and test-funds snippets fail inside it
 Severity: major
 Area: SDK
@@ -27,4 +27,4 @@ A builder who starts from the bot kit and adds the docs' voucher-claim code brea
 - Network: Somnia Hideki testnet (chain id 50383)
 - Wallet address: none. Read-only checks; no transaction sent.
 - Date checked: 2026-10-23
-```
+  
