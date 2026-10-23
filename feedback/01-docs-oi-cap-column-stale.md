@@ -1,5 +1,4 @@
 
-```markdown title="01 文件内容"
 # Market table "Open interest cap" column is out of date on 20 of 21 markets
 Severity: major
 Area: docs
@@ -36,4 +35,3 @@ The same table is served in `/llms-full.txt` (line ~6099), so AI agents building
 - Network: Somnia Tokyo testnet as the bounty calls it (Hideki in the docs and SDK, chain id 50383), RPC `https://api.hideki2.infra.testnet.somnia.network`, indexer `https://hideki-dev.smk.somnia.host/v1/graphql`
 - Wallet address: none. Every check is read-only (view calls and `eth_call`). No key was used and no transaction was sent.
 - Date checked: 2026-10-23 (block numbers are in the evidence files)
-```
